@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.toggle-container {
+  background: rgb(173, 173, 173);
+  width: 50px;
+  height: 100px;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 2px;
+  -webkit-box-shadow: inset 0px 0px 2px 0px rgba(0, 0, 0, 0.33);
+  -moz-box-shadow: inset 0px 0px 2px 0px rgba(0, 0, 0, 0.33);
+  box-shadow: inset 0px 0px 2px 0px rgba(0, 0, 0, 0.33);
+}
+.toggle-button {
+  cursor: pointer;
+  background: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  order: 1;
+  font-size: 13px;
+  text-align: center;
+}
+.dynamic-text {
+  display: block;
+}
+.toggle-button.toggle-button-active {
+  order: 0;
+  color: black;
+}
+.toggle-container.toggle-container-active {
+  background-color: rgb(16, 121, 190);
+  color: white;
+}
