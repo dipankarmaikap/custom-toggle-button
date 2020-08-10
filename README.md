@@ -1,3 +1,4 @@
+![Custom toggle button](https://dipankarmaikap.com/wp-content/uploads/2020/08/custom-toggle-button.gif)
 # Custom Toggle Button
 
 A custom toggle button created using html,css and javascript. You can read my blog about this here.
